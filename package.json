@@ -18,8 +18,9 @@
     "build:prod": "npm run build -- --prod --build-optimizer --aot",
     "ngsw-config": "node_modules/.bin/ngsw-config dist src/ngsw-config.json",
     "ngsw-copy": "copy node_modules\\@angular\\service-worker\\ngsw-worker.js dist\\",
-    "build-prod-ngsw": "ng build --prod --build-optimizer --aot && npm run ngsw-config && npm run ngsw-copy",
+    "build-prod-ngsw": "ng build --prod --build-optimizer --aot --stats-json && npm run ngsw-config && npm run ngsw-copy",
     "serve-prod-ngsw": "npm run build-prod-ngsw && http-server dist --gzip -p 8080 --cors -o",
+    "bundle-report": "webpack-bundle-analyzer dist/stats.json",
     "test": "ng test -sr",
     "test:coverage": "rimraf coverage && npm run test -- -cc",
     "lint": "ng lint --type-check",
@@ -110,6 +111,7 @@
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
     "tslint-language-service": "^0.9.9",
-    "typescript": "^2.4.2"
+    "typescript": "^2.4.2",
+    "webpack-bundle-analyzer": "^2.11.1"
   }
 }
