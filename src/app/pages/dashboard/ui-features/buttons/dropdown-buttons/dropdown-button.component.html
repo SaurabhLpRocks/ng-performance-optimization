@@ -1,0 +1,44 @@
+<nb-card>
+  <nb-card-header>Button Dropdowns</nb-card-header>
+  <nb-card-body>
+    <div class="dropdown btn-group" ngbDropdown>
+      <button type="button" class="btn btn-primary" (click)="forceChangeDetection()">Dropdown</button>
+      <button type="button" class="btn btn-primary" ngbDropdownToggle (click)="forceChangeDetection()"></button>
+      <ul class="dropdown-menu" ngbDropdownMenu>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Icon Button</li>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Hero Button</li>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Default</li>
+      </ul>
+    </div>
+    <div class="dropdown" ngbDropdown>
+      <button class="btn btn-primary" type="button" ngbDropdownToggle (click)="forceChangeDetection()">
+        Dropdown
+      </button>
+      <ul class="dropdown-menu" ngbDropdownMenu>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Icon Button</li>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Hero Button</li>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Default</li>
+      </ul>
+    </div>
+    <div class="dropdown" placement="top" ngbDropdown>
+      <button class="btn btn-outline-primary" type="button" (click)="forceChangeDetection()" ngbDropdownToggle>
+        Dropup
+      </button>
+      <ul class="dropdown-menu" ngbDropdownMenu>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Icon Button</li>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Hero Button</li>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Default</li>
+      </ul>
+    </div>
+    <div class="dropdown ghost-dropdown" ngbDropdown>
+      <button class="btn btn-primary" (click)="forceChangeDetection()" type="button" ngbDropdownToggle>
+        Dropdown
+      </button>
+      <ul class="dropdown-menu" ngbDropdownMenu>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Icon Button</li>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Hero Button</li>
+        <li class="dropdown-item" (click)="forceChangeDetection()">Default</li>
+      </ul>
+    </div>
+  </nb-card-body>
+</nb-card>

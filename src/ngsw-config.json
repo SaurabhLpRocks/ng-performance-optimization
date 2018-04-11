@@ -1,0 +1,52 @@
+{
+  "index": "/index.html",
+  "assetGroups": [{
+    "name": "app",
+    "installMode": "prefetch",
+    "resources": {
+      "files": [
+        "/favicon.ico",
+        "/index.html"
+      ],
+      "versionedFiles": [
+        "/*.bundle.css",
+        "/*.bundle.js",
+        "/*.chunk.js"
+      ],
+      "urls": [
+        "https://fonts.googleapis.com/**",
+        "http://cdn.ckeditor.com/**",
+        "https://maps.googleapis.com/**",
+        "http://a.tile.openstreetmap.org/**",
+        "http://b.tile.openstreetmap.org/**",
+        "http://c.tile.openstreetmap.org/**",
+        "http://d.tile.openstreetmap.org/**",
+        "https://csi.gstatic.com/**",
+        "https://maps.gstatic.com/**"
+      ]
+    }
+  }, {
+    "name": "assets",
+    "installMode": "lazy",
+    "updateMode": "prefetch",
+    "resources": {
+      "files": [
+        "/assets/**"
+      ],
+      "urls": []
+    }
+  }],
+  "dataGroups": [{
+      "name": "api-freshness",
+      "urls": [
+        "https://randomuser.me/api/"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 100,
+        "maxAge": "3d",
+        "timeout": "10s"
+      }
+    }
+]
+}

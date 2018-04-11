@@ -1,0 +1,5463 @@
+[
+  {
+    "name": "AppModule",
+    "file": "demo/app/app.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "AppComponent",
+        "file": "demo/app/app.component.ts",
+        "selector": "app-component",
+        "providers": [],
+        "templateUrl": [
+          "app.component.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 56,
+            "end": 83,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 56,
+              "end": 66,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 67,
+              "end": 83,
+              "flags": 0,
+              "text": "app-component"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 84,
+            "end": 121,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 84,
+              "end": 97,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 98,
+              "end": 121,
+              "flags": 0,
+              "text": "./app.component.html"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "BrowserModule"
+      },
+      {
+        "name": "LeafletDemoModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [
+      {
+        "name": "AppComponent"
+      }
+    ],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 230,
+        "end": 282,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 230,
+          "end": 239,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 240,
+          "end": 282,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 242,
+              "end": 258,
+              "flags": 0,
+              "text": "BrowserModule"
+            },
+            {
+              "kind": 69,
+              "pos": 259,
+              "end": 279,
+              "flags": 0,
+              "text": "LeafletDemoModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 283,
+        "end": 318,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 283,
+          "end": 297,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 298,
+          "end": 318,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 300,
+              "end": 315,
+              "flags": 0,
+              "text": "AppComponent"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 319,
+        "end": 348,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 319,
+          "end": 330,
+          "flags": 0,
+          "text": "bootstrap"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 331,
+          "end": 348,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 333,
+              "end": 346,
+              "flags": 0,
+              "text": "AppComponent"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 349,
+        "end": 365,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 349,
+          "end": 360,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 361,
+          "end": 365,
+          "flags": 0,
+          "elements": []
+        }
+      }
+    ]
+  },
+  {
+    "name": "LeafletDemoModule",
+    "file": "app/leaflet/leaflet-demo.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "LeafletDemoComponent",
+        "file": "app/leaflet/leaflet-demo.component.ts",
+        "selector": "leafletDemo",
+        "providers": [],
+        "templateUrl": [
+          "leaflet-demo.component.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 56,
+            "end": 81,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 56,
+              "end": 66,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 67,
+              "end": 81,
+              "flags": 0,
+              "text": "leafletDemo"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 82,
+            "end": 128,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 82,
+              "end": 95,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 96,
+              "end": 128,
+              "flags": 0,
+              "text": "./leaflet-demo.component.html"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LeafletCoreDemoComponent",
+        "file": "leaflet/core/core-demo.component.ts",
+        "selector": "leafletCoreDemo",
+        "providers": [],
+        "templateUrl": [
+          "core-demo.component.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 169,
+            "end": 198,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 169,
+              "end": 179,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 180,
+              "end": 198,
+              "flags": 0,
+              "text": "leafletCoreDemo"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 199,
+            "end": 242,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 199,
+              "end": 212,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 213,
+              "end": 242,
+              "flags": 0,
+              "text": "./core-demo.component.html"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LeafletLayersDemoComponent",
+        "file": "leaflet/layers/layers-demo.component.ts",
+        "selector": "leafletLayersDemo",
+        "providers": [],
+        "templateUrl": [
+          "layers-demo.component.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 212,
+            "end": 243,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 212,
+              "end": 222,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 223,
+              "end": 243,
+              "flags": 0,
+              "text": "leafletLayersDemo"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 244,
+            "end": 289,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 244,
+              "end": 257,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 258,
+              "end": 289,
+              "flags": 0,
+              "text": "./layers-demo.component.html"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LeafletNgForLayersDemoComponent",
+        "file": "leaflet/layers/ngfor-layers-demo.component.ts",
+        "selector": "leafletNgForLayersDemo",
+        "providers": [],
+        "templateUrl": [
+          "ngfor-layers-demo.component.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 124,
+            "end": 160,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 124,
+              "end": 134,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 135,
+              "end": 160,
+              "flags": 0,
+              "text": "leafletNgForLayersDemo"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 161,
+            "end": 212,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 161,
+              "end": 174,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 175,
+              "end": 212,
+              "flags": 0,
+              "text": "./ngfor-layers-demo.component.html"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LeafletBaseLayersDemoComponent",
+        "file": "leaflet/layers/baselayers-demo.component.ts",
+        "selector": "leafletBaselayersDemo",
+        "providers": [],
+        "templateUrl": [
+          "baselayers-demo.component.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 102,
+            "end": 137,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 102,
+              "end": 112,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 113,
+              "end": 137,
+              "flags": 0,
+              "text": "leafletBaselayersDemo"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 138,
+            "end": 187,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 138,
+              "end": 151,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 152,
+              "end": 187,
+              "flags": 0,
+              "text": "./baselayers-demo.component.html"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LeafletMarkersDemoComponent",
+        "file": "leaflet/layers/markers-demo.component.ts",
+        "selector": "leafletMarkersDemo",
+        "providers": [],
+        "templateUrl": [
+          "markers-demo.component.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 123,
+            "end": 155,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 123,
+              "end": 133,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 134,
+              "end": 155,
+              "flags": 0,
+              "text": "leafletMarkersDemo"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 156,
+            "end": 202,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 156,
+              "end": 169,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 170,
+              "end": 202,
+              "flags": 0,
+              "text": "./markers-demo.component.html"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LeafletPerformanceDemoComponent"
+      },
+      {
+        "name": "LeafletWrapperComponent"
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "FormsModule"
+      },
+      {
+        "ns": "LeafletModule",
+        "name": "LeafletModule.forRoot()"
+      }
+    ],
+    "exports": [
+      {
+        "name": "LeafletDemoComponent"
+      }
+    ],
+    "bootstrap": [
+      {
+        "name": "LeafletDemoComponent"
+      }
+    ],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 856,
+        "end": 929,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 856,
+          "end": 865,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 866,
+          "end": 929,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 868,
+              "end": 883,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "kind": 69,
+              "pos": 884,
+              "end": 898,
+              "flags": 0,
+              "text": "FormsModule"
+            },
+            {
+              "kind": 171,
+              "pos": 899,
+              "end": 926,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 899,
+                "end": 924,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 899,
+                  "end": 916,
+                  "flags": 0,
+                  "text": "LeafletModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 916,
+                  "end": 917,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 917,
+                  "end": 924,
+                  "flags": 0,
+                  "text": "forRoot"
+                }
+              },
+              "arguments": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 930,
+        "end": 1193,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 930,
+          "end": 944,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 945,
+          "end": 1193,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 947,
+              "end": 970,
+              "flags": 0,
+              "text": "LeafletDemoComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 971,
+              "end": 998,
+              "flags": 0,
+              "text": "LeafletCoreDemoComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 999,
+              "end": 1028,
+              "flags": 0,
+              "text": "LeafletLayersDemoComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 1029,
+              "end": 1063,
+              "flags": 0,
+              "text": "LeafletNgForLayersDemoComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 1064,
+              "end": 1097,
+              "flags": 0,
+              "text": "LeafletBaseLayersDemoComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 1098,
+              "end": 1128,
+              "flags": 0,
+              "text": "LeafletMarkersDemoComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 1129,
+              "end": 1163,
+              "flags": 0,
+              "text": "LeafletPerformanceDemoComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 1164,
+              "end": 1190,
+              "flags": 0,
+              "text": "LeafletWrapperComponent"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1194,
+        "end": 1232,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1194,
+          "end": 1203,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1204,
+          "end": 1232,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 1206,
+              "end": 1229,
+              "flags": 0,
+              "text": "LeafletDemoComponent"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1233,
+        "end": 1270,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1233,
+          "end": 1244,
+          "flags": 0,
+          "text": "bootstrap"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1245,
+          "end": 1270,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 1247,
+              "end": 1268,
+              "flags": 0,
+              "text": "LeafletDemoComponent"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1271,
+        "end": 1287,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1271,
+          "end": 1282,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1283,
+          "end": 1287,
+          "flags": 0,
+          "elements": []
+        }
+      }
+    ]
+  },
+  {
+    "name": "LeafletModule",
+    "file": "src/leaflet/leaflet.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "LeafletDirective"
+      },
+      {
+        "name": "LeafletLayerDirective"
+      },
+      {
+        "name": "LeafletLayersDirective"
+      },
+      {
+        "name": "LeafletLayersControlDirective"
+      },
+      {
+        "name": "LeafletBaseLayersDirective"
+      }
+    ],
+    "imports": [],
+    "exports": [
+      {
+        "name": "LeafletDirective"
+      },
+      {
+        "name": "LeafletLayerDirective"
+      },
+      {
+        "name": "LeafletLayersDirective"
+      },
+      {
+        "name": "LeafletLayersControlDirective"
+      },
+      {
+        "name": "LeafletBaseLayersDirective"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 475,
+        "end": 623,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 475,
+          "end": 484,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 485,
+          "end": 623,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 487,
+              "end": 506,
+              "flags": 0,
+              "text": "LeafletDirective"
+            },
+            {
+              "kind": 69,
+              "pos": 507,
+              "end": 531,
+              "flags": 0,
+              "text": "LeafletLayerDirective"
+            },
+            {
+              "kind": 69,
+              "pos": 532,
+              "end": 557,
+              "flags": 0,
+              "text": "LeafletLayersDirective"
+            },
+            {
+              "kind": 69,
+              "pos": 558,
+              "end": 590,
+              "flags": 0,
+              "text": "LeafletLayersControlDirective"
+            },
+            {
+              "kind": 69,
+              "pos": 591,
+              "end": 620,
+              "flags": 0,
+              "text": "LeafletBaseLayersDirective"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 624,
+        "end": 777,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 624,
+          "end": 638,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 639,
+          "end": 777,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 641,
+              "end": 660,
+              "flags": 0,
+              "text": "LeafletDirective"
+            },
+            {
+              "kind": 69,
+              "pos": 661,
+              "end": 685,
+              "flags": 0,
+              "text": "LeafletLayerDirective"
+            },
+            {
+              "kind": 69,
+              "pos": 686,
+              "end": 711,
+              "flags": 0,
+              "text": "LeafletLayersDirective"
+            },
+            {
+              "kind": 69,
+              "pos": 712,
+              "end": 744,
+              "flags": 0,
+              "text": "LeafletLayersControlDirective"
+            },
+            {
+              "kind": 69,
+              "pos": 745,
+              "end": 774,
+              "flags": 0,
+              "text": "LeafletBaseLayersDirective"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "CKEditorModule",
+    "file": "ng2-ckeditor/src/ckeditor.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "CKEditorComponent",
+        "file": "ng2-ckeditor/src/ckeditor.component.ts",
+        "selector": "ckeditor",
+        "providers": [
+          {
+            "name": "{ provide: NG_VALUE_ACCESSOR, useExisting: , multi:  }"
+          }
+        ],
+        "templateUrl": [],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 532,
+            "end": 555,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 532,
+              "end": 543,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 544,
+              "end": 555,
+              "flags": 0,
+              "text": "ckeditor"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 556,
+            "end": 695,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 556,
+              "end": 568,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "kind": 167,
+              "pos": 569,
+              "end": 695,
+              "flags": 1024,
+              "elements": [
+                {
+                  "kind": 168,
+                  "pos": 571,
+                  "end": 691,
+                  "flags": 1024,
+                  "properties": [
+                    {
+                      "kind": 248,
+                      "pos": 577,
+                      "end": 610,
+                      "flags": 0,
+                      "name": {
+                        "kind": 69,
+                        "pos": 577,
+                        "end": 591,
+                        "flags": 0,
+                        "text": "provide"
+                      },
+                      "initializer": {
+                        "kind": 69,
+                        "pos": 592,
+                        "end": 610,
+                        "flags": 0,
+                        "text": "NG_VALUE_ACCESSOR"
+                      }
+                    },
+                    {
+                      "kind": 248,
+                      "pos": 611,
+                      "end": 666,
+                      "flags": 0,
+                      "name": {
+                        "kind": 69,
+                        "pos": 611,
+                        "end": 629,
+                        "flags": 0,
+                        "text": "useExisting"
+                      },
+                      "initializer": {
+                        "kind": 171,
+                        "pos": 630,
+                        "end": 666,
+                        "flags": 0,
+                        "expression": {
+                          "kind": 69,
+                          "pos": 630,
+                          "end": 641,
+                          "flags": 0,
+                          "text": "forwardRef"
+                        },
+                        "arguments": [
+                          {
+                            "kind": 177,
+                            "pos": 642,
+                            "end": 665,
+                            "flags": 0,
+                            "parameters": [],
+                            "equalsGreaterThanToken": {
+                              "kind": 34,
+                              "pos": 644,
+                              "end": 647,
+                              "flags": 0
+                            },
+                            "body": {
+                              "kind": 69,
+                              "pos": 647,
+                              "end": 665,
+                              "flags": 0,
+                              "text": "CKEditorComponent"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "kind": 248,
+                      "pos": 667,
+                      "end": 685,
+                      "flags": 0,
+                      "name": {
+                        "kind": 69,
+                        "pos": 667,
+                        "end": 679,
+                        "flags": 0,
+                        "text": "multi"
+                      },
+                      "initializer": {
+                        "kind": 99,
+                        "pos": 680,
+                        "end": 685,
+                        "flags": 0
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 696,
+            "end": 738,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 696,
+              "end": 707,
+              "flags": 0,
+              "text": "template"
+            },
+            "initializer": {
+              "kind": 11,
+              "pos": 708,
+              "end": 738,
+              "flags": 0,
+              "text": "<textarea #host></textarea>"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CKButtonDirective"
+      },
+      {
+        "name": "CKGroupDirective"
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "CKEditorComponent"
+      },
+      {
+        "name": "CKButtonDirective"
+      },
+      {
+        "name": "CKGroupDirective"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 301,
+        "end": 335,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 301,
+          "end": 311,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 312,
+          "end": 335,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 314,
+              "end": 331,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 336,
+        "end": 425,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 336,
+          "end": 351,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 352,
+          "end": 425,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 354,
+              "end": 376,
+              "flags": 0,
+              "text": "CKEditorComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 377,
+              "end": 399,
+              "flags": 0,
+              "text": "CKButtonDirective"
+            },
+            {
+              "kind": 69,
+              "pos": 400,
+              "end": 421,
+              "flags": 0,
+              "text": "CKGroupDirective"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 426,
+        "end": 510,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 426,
+          "end": 436,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 437,
+          "end": 510,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 439,
+              "end": 461,
+              "flags": 0,
+              "text": "CKEditorComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 462,
+              "end": 484,
+              "flags": 0,
+              "text": "CKButtonDirective"
+            },
+            {
+              "kind": 69,
+              "pos": 485,
+              "end": 506,
+              "flags": 0,
+              "text": "CKGroupDirective"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "Ng2CompleterModule",
+    "file": "ng2-completer/src/ng2-completer.module.ts",
+    "providers": [
+      {
+        "name": "CompleterService"
+      },
+      {
+        "name": "LocalDataFactoryProvider"
+      },
+      {
+        "name": "RemoteDataFactoryProvider"
+      }
+    ],
+    "declarations": [
+      {
+        "name": "CompleterListItemCmp",
+        "file": "src/components/completer-list-item-cmp.ts",
+        "selector": "completer-list-item",
+        "providers": [],
+        "templateUrl": [],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 155,
+            "end": 191,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 155,
+              "end": 168,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 169,
+              "end": 191,
+              "flags": 0,
+              "text": "completer-list-item"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 192,
+            "end": 497,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 192,
+              "end": 205,
+              "flags": 0,
+              "text": "template"
+            },
+            "initializer": {
+              "kind": 11,
+              "pos": 206,
+              "end": 497,
+              "flags": 0,
+              "text": "<span class=\"completer-list-item-holder\" [ngClass]=\"{'completer-title': type === 'title', 'completer-description': type === 'description'}\" >\n        <span class=\"completer-list-item\" *ngFor=\"let part of parts\" [ngClass]=\"part.isMatch ? matchClass : null\">{{part.text}}</span>\n    </span>"
+            }
+          }
+        ]
+      },
+      {
+        "name": "CtrCompleter"
+      },
+      {
+        "name": "CtrDropdown"
+      },
+      {
+        "name": "CtrInput"
+      },
+      {
+        "name": "CtrList"
+      },
+      {
+        "name": "CtrRow"
+      },
+      {
+        "name": "CompleterCmp",
+        "file": "src/components/completer-cmp.ts",
+        "selector": "ng2-completer",
+        "providers": [
+          {
+            "name": "COMPLETER_CONTROL_VALUE_ACCESSOR"
+          }
+        ],
+        "templateUrl": [],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 830,
+            "end": 860,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 830,
+              "end": 843,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 844,
+              "end": 860,
+              "flags": 0,
+              "text": "ng2-completer"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 861,
+            "end": 4195,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 861,
+              "end": 874,
+              "flags": 0,
+              "text": "template"
+            },
+            "initializer": {
+              "kind": 11,
+              "pos": 875,
+              "end": 4195,
+              "flags": 0,
+              "text": "\n        <div class=\"completer-holder\" ctrCompleter>\n            <input #ctrInput [attr.id]=\"inputId.length > 0 ? inputId : null\" type=\"search\" class=\"completer-input\" ctrInput [ngClass]=\"inputClass\"\n                [(ngModel)]=\"searchStr\" (ngModelChange)=\"onChange($event)\" [attr.name]=\"inputName\" [placeholder]=\"placeholder\"\n                [attr.maxlength]=\"maxChars\" [tabindex]=\"fieldTabindex\" [disabled]=\"disableInput\"\n                [clearSelected]=\"clearSelected\" [clearUnselected]=\"clearUnselected\"\n                [overrideSuggested]=\"overrideSuggested\" [openOnFocus]=\"openOnFocus\" [fillHighlighted]=\"fillHighlighted\" \n                [openOnClick]=\"openOnClick\" [selectOnClick]=\"selectOnClick\" [selectOnFocus]=\"selectOnFocus\"\n                (blur)=\"onBlur()\" (focus)=\"onFocus()\" (keyup)=\"onKeyup($event)\" (keydown)=\"onKeydown($event)\" (click)=\"onClick($event)\"\n                autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" />\n\n            <div class=\"completer-dropdown-holder\"\n                *ctrList=\"dataService;\n                    minSearchLength: minSearchLength;\n                    pause: pause;\n                    autoMatch: autoMatch;\n                    initialValue: initialValue;\n                    autoHighlight: autoHighlight;\n                    displaySearching: displaySearching;\n                    let items = results;\n                    let searchActive = searching;\n                    let isInitialized = searchInitialized;\n                    let isOpen = isOpen;\">\n                <div class=\"completer-dropdown\" ctrDropdown *ngIf=\"isInitialized && isOpen && (( items?.length > 0|| (displayNoResults && !searchActive)) || (searchActive && displaySearching))\">\n                    <div *ngIf=\"searchActive && displaySearching\" class=\"completer-searching\">{{_textSearching}}</div>\n                    <div *ngIf=\"!searchActive && (!items || items?.length === 0)\" class=\"completer-no-results\">{{_textNoResults}}</div>\n                    <div class=\"completer-row-wrapper\" *ngFor=\"let item of items; let rowIndex=index\">\n                        <div class=\"completer-row\" [ctrRow]=\"rowIndex\" [dataItem]=\"item\">\n                            <div *ngIf=\"item.image || item.image === ''\" class=\"completer-image-holder\">\n                                <img *ngIf=\"item.image != ''\" src=\"{{item.image}}\" class=\"completer-image\" />\n                                <div *ngIf=\"item.image === ''\" class=\"completer-image-default\"></div>\n                            </div>\n                            <div class=\"completer-item-text\" [ngClass]=\"{'completer-item-text-image': item.image || item.image === '' }\">\n                                <completer-list-item class=\"completer-title\" [text]=\"item.title\" [matchClass]=\"matchClass\" [searchStr]=\"searchStr\" [type]=\"'title'\"></completer-list-item>\n                                <completer-list-item *ngIf=\"item.description && item.description != ''\" class=\"completer-description\" [text]=\"item.description\"\n                                    [matchClass]=\"matchClass\" [searchStr]=\"searchStr\" [type]=\"'description'\">\n                                </completer-list-item>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    "
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 4196,
+            "end": 5179,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 4196,
+              "end": 4207,
+              "flags": 0,
+              "text": "styles"
+            },
+            "initializer": {
+              "kind": 167,
+              "pos": 4208,
+              "end": 5179,
+              "flags": 0,
+              "elements": [
+                {
+                  "kind": 11,
+                  "pos": 4210,
+                  "end": 5178,
+                  "flags": 0,
+                  "text": "\n    .completer-dropdown {\n        border-color: #ececec;\n        border-width: 1px;\n        border-style: solid;\n        border-radius: 2px;\n        width: 250px;\n        padding: 6px;\n        cursor: pointer;\n        z-index: 9999;\n        position: absolute;\n        margin-top: -6px;\n        background-color: #ffffff;\n    }\n\n    .completer-row {\n        padding: 5px;\n        color: #000000;\n        margin-bottom: 4px;\n        clear: both;\n        display: inline-block;\n        width: 103%;\n    }\n\n    .completer-selected-row {\n        background-color: lightblue;\n        color: #ffffff;\n    }\n\n    .completer-description {\n        font-size: 14px;\n    }\n\n    .completer-image-default {\n        width: 16px;\n        height: 16px;\n        background-image: url(\"demo/res/img/default.png\");\n    }\n\n    .completer-image-holder {\n        float: left;\n        width: 10%;\n    }\n    .completer-item-text-image {\n        float: right;\n        width: 90%;\n    }\n    "
+                }
+              ]
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 5180,
+            "end": 5230,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 5180,
+              "end": 5194,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "kind": 167,
+              "pos": 5195,
+              "end": 5230,
+              "flags": 0,
+              "elements": [
+                {
+                  "kind": 69,
+                  "pos": 5197,
+                  "end": 5229,
+                  "flags": 0,
+                  "text": "COMPLETER_CONTROL_VALUE_ACCESSOR"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "FormsModule"
+      },
+      {
+        "name": "HttpModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "CompleterCmp"
+      },
+      {
+        "name": "CompleterListItemCmp"
+      },
+      {
+        "name": "CtrCompleter"
+      },
+      {
+        "name": "CtrDropdown"
+      },
+      {
+        "name": "CtrInput"
+      },
+      {
+        "name": "CtrList"
+      },
+      {
+        "name": "CtrRow"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 761,
+        "end": 844,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 761,
+          "end": 773,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 774,
+          "end": 844,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 776,
+              "end": 797,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "kind": 69,
+              "pos": 798,
+              "end": 818,
+              "flags": 0,
+              "text": "FormsModule"
+            },
+            {
+              "kind": 69,
+              "pos": 819,
+              "end": 838,
+              "flags": 0,
+              "text": "HttpModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 845,
+        "end": 1016,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 845,
+          "end": 862,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 863,
+          "end": 1016,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 865,
+              "end": 894,
+              "flags": 0,
+              "text": "CompleterListItemCmp"
+            },
+            {
+              "kind": 69,
+              "pos": 895,
+              "end": 916,
+              "flags": 0,
+              "text": "CtrCompleter"
+            },
+            {
+              "kind": 69,
+              "pos": 917,
+              "end": 937,
+              "flags": 0,
+              "text": "CtrDropdown"
+            },
+            {
+              "kind": 69,
+              "pos": 938,
+              "end": 955,
+              "flags": 0,
+              "text": "CtrInput"
+            },
+            {
+              "kind": 69,
+              "pos": 956,
+              "end": 972,
+              "flags": 0,
+              "text": "CtrList"
+            },
+            {
+              "kind": 69,
+              "pos": 973,
+              "end": 988,
+              "flags": 0,
+              "text": "CtrRow"
+            },
+            {
+              "kind": 69,
+              "pos": 989,
+              "end": 1010,
+              "flags": 0,
+              "text": "CompleterCmp"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1017,
+        "end": 1183,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1017,
+          "end": 1029,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1030,
+          "end": 1183,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 1032,
+              "end": 1053,
+              "flags": 0,
+              "text": "CompleterCmp"
+            },
+            {
+              "kind": 69,
+              "pos": 1054,
+              "end": 1083,
+              "flags": 0,
+              "text": "CompleterListItemCmp"
+            },
+            {
+              "kind": 69,
+              "pos": 1084,
+              "end": 1105,
+              "flags": 0,
+              "text": "CtrCompleter"
+            },
+            {
+              "kind": 69,
+              "pos": 1106,
+              "end": 1126,
+              "flags": 0,
+              "text": "CtrDropdown"
+            },
+            {
+              "kind": 69,
+              "pos": 1127,
+              "end": 1144,
+              "flags": 0,
+              "text": "CtrInput"
+            },
+            {
+              "kind": 69,
+              "pos": 1145,
+              "end": 1161,
+              "flags": 0,
+              "text": "CtrList"
+            },
+            {
+              "kind": 69,
+              "pos": 1162,
+              "end": 1177,
+              "flags": 0,
+              "text": "CtrRow"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1184,
+        "end": 1301,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1184,
+          "end": 1198,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1199,
+          "end": 1301,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 1201,
+              "end": 1226,
+              "flags": 0,
+              "text": "CompleterService"
+            },
+            {
+              "kind": 69,
+              "pos": 1227,
+              "end": 1260,
+              "flags": 0,
+              "text": "LocalDataFactoryProvider"
+            },
+            {
+              "kind": 69,
+              "pos": 1261,
+              "end": 1295,
+              "flags": 0,
+              "text": "RemoteDataFactoryProvider"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "CoreModule",
+    "file": "app/@core/core.module.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "NbAuthModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 790,
+        "end": 825,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 790,
+          "end": 800,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 801,
+          "end": 825,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 803,
+              "end": 820,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 826,
+        "end": 861,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 826,
+          "end": 836,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 837,
+          "end": 861,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 839,
+              "end": 856,
+              "flags": 0,
+              "text": "NbAuthModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 862,
+        "end": 881,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 862,
+          "end": 877,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 878,
+          "end": 881,
+          "flags": 0,
+          "elements": []
+        }
+      }
+    ]
+  },
+  {
+    "name": "DataModule",
+    "file": "@core/data/data.module.ts",
+    "providers": [
+      {
+        "ns": "SERVICES",
+        "name": "SERVICES.SERVICES"
+      }
+    ],
+    "declarations": [],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "HttpClientModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 559,
+        "end": 615,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 559,
+          "end": 569,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 570,
+          "end": 615,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 572,
+              "end": 589,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "kind": 69,
+              "pos": 590,
+              "end": 611,
+              "flags": 0,
+              "text": "HttpClientModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 616,
+        "end": 652,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 616,
+          "end": 628,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 629,
+          "end": 652,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 631,
+              "end": 647,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 639,
+                "end": 647,
+                "flags": 0,
+                "text": "SERVICES"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ThemeModule",
+    "file": "app/@theme/theme.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "ns": "COMPONENTS",
+        "name": "COMPONENTS.COMPONENTS"
+      },
+      {
+        "ns": "PIPES",
+        "name": "PIPES.PIPES"
+      }
+    ],
+    "imports": [
+      {
+        "ns": "BASE_MODULES",
+        "name": "BASE_MODULES.BASE_MODULES"
+      },
+      {
+        "ns": "NB_MODULES",
+        "name": "NB_MODULES.NB_MODULES"
+      }
+    ],
+    "exports": [
+      {
+        "ns": "BASE_MODULES",
+        "name": "BASE_MODULES.BASE_MODULES"
+      },
+      {
+        "ns": "NB_MODULES",
+        "name": "NB_MODULES.NB_MODULES"
+      },
+      {
+        "ns": "COMPONENTS",
+        "name": "COMPONENTS.COMPONENTS"
+      },
+      {
+        "ns": "PIPES",
+        "name": "PIPES.PIPES"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 1918,
+        "end": 1962,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1918,
+          "end": 1928,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1929,
+          "end": 1962,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 1931,
+              "end": 1946,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 1934,
+                "end": 1946,
+                "flags": 0,
+                "text": "BASE_MODULES"
+              }
+            },
+            {
+              "kind": 188,
+              "pos": 1947,
+              "end": 1961,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 1951,
+                "end": 1961,
+                "flags": 0,
+                "text": "NB_MODULES"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1963,
+        "end": 2032,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1963,
+          "end": 1973,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1974,
+          "end": 2032,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 1976,
+              "end": 1991,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 1979,
+                "end": 1991,
+                "flags": 0,
+                "text": "BASE_MODULES"
+              }
+            },
+            {
+              "kind": 188,
+              "pos": 1992,
+              "end": 2006,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 1996,
+                "end": 2006,
+                "flags": 0,
+                "text": "NB_MODULES"
+              }
+            },
+            {
+              "kind": 188,
+              "pos": 2007,
+              "end": 2021,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 2011,
+                "end": 2021,
+                "flags": 0,
+                "text": "COMPONENTS"
+              }
+            },
+            {
+              "kind": 188,
+              "pos": 2022,
+              "end": 2031,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 2026,
+                "end": 2031,
+                "flags": 0,
+                "text": "PIPES"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 2033,
+        "end": 2075,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 2033,
+          "end": 2048,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 2049,
+          "end": 2075,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 2051,
+              "end": 2064,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 2054,
+                "end": 2064,
+                "flags": 0,
+                "text": "COMPONENTS"
+              }
+            },
+            {
+              "kind": 188,
+              "pos": 2065,
+              "end": 2074,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 2069,
+                "end": 2074,
+                "flags": 0,
+                "text": "PIPES"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "AppRoutingModule",
+    "file": "src/app/app-routing.module.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [
+      {
+        "ns": "RouterModule",
+        "name": "RouterModule.forRoot(args)"
+      }
+    ],
+    "exports": [
+      {
+        "name": "RouterModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 1132,
+        "end": 1182,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1132,
+          "end": 1142,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1143,
+          "end": 1182,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 171,
+              "pos": 1145,
+              "end": 1181,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 1145,
+                "end": 1165,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 1145,
+                  "end": 1157,
+                  "flags": 0,
+                  "text": "RouterModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 1157,
+                  "end": 1158,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 1158,
+                  "end": 1165,
+                  "flags": 0,
+                  "text": "forRoot"
+                }
+              },
+              "arguments": [
+                {
+                  "kind": 69,
+                  "pos": 1166,
+                  "end": 1172,
+                  "flags": 0,
+                  "text": "routes"
+                },
+                {
+                  "kind": 69,
+                  "pos": 1173,
+                  "end": 1180,
+                  "flags": 0,
+                  "text": "config"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1183,
+        "end": 1209,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1183,
+          "end": 1193,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1194,
+          "end": 1209,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 1196,
+              "end": 1208,
+              "flags": 0,
+              "text": "RouterModule"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "AppModule",
+    "file": "src/app/app.module.ts",
+    "providers": [
+      {
+        "name": "{ provide: APP_BASE_HREF, useValue: '/' }"
+      }
+    ],
+    "declarations": [
+      {
+        "name": "AppComponent",
+        "file": "src/app/app.component.ts",
+        "selector": "ngx-app",
+        "providers": [],
+        "templateUrl": [],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 289,
+            "end": 311,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 289,
+              "end": 300,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 301,
+              "end": 311,
+              "flags": 0,
+              "text": "ngx-app"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 312,
+            "end": 358,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 312,
+              "end": 323,
+              "flags": 0,
+              "text": "template"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 324,
+              "end": 358,
+              "flags": 0,
+              "text": "<router-outlet></router-outlet>"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "BrowserModule"
+      },
+      {
+        "name": "BrowserAnimationsModule"
+      },
+      {
+        "name": "HttpModule"
+      },
+      {
+        "name": "AppRoutingModule"
+      },
+      {
+        "ns": "NgbModule",
+        "name": "NgbModule.forRoot()"
+      },
+      {
+        "ns": "ThemeModule",
+        "name": "ThemeModule.forRoot()"
+      },
+      {
+        "ns": "CoreModule",
+        "name": "CoreModule.forRoot()"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [
+      {
+        "name": "AppComponent"
+      }
+    ],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 708,
+        "end": 739,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 708,
+          "end": 723,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 724,
+          "end": 739,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 726,
+              "end": 738,
+              "flags": 0,
+              "text": "AppComponent"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 740,
+        "end": 922,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 740,
+          "end": 750,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 751,
+          "end": 922,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 753,
+              "end": 771,
+              "flags": 0,
+              "text": "BrowserModule"
+            },
+            {
+              "kind": 69,
+              "pos": 772,
+              "end": 800,
+              "flags": 0,
+              "text": "BrowserAnimationsModule"
+            },
+            {
+              "kind": 69,
+              "pos": 801,
+              "end": 816,
+              "flags": 0,
+              "text": "HttpModule"
+            },
+            {
+              "kind": 69,
+              "pos": 817,
+              "end": 838,
+              "flags": 0,
+              "text": "AppRoutingModule"
+            },
+            {
+              "kind": 171,
+              "pos": 839,
+              "end": 864,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 839,
+                "end": 862,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 839,
+                  "end": 854,
+                  "flags": 0,
+                  "text": "NgbModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 854,
+                  "end": 855,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 855,
+                  "end": 862,
+                  "flags": 0,
+                  "text": "forRoot"
+                }
+              },
+              "arguments": []
+            },
+            {
+              "kind": 171,
+              "pos": 865,
+              "end": 891,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 865,
+                "end": 889,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 865,
+                  "end": 881,
+                  "flags": 0,
+                  "text": "ThemeModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 881,
+                  "end": 882,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 882,
+                  "end": 889,
+                  "flags": 0,
+                  "text": "forRoot"
+                }
+              },
+              "arguments": []
+            },
+            {
+              "kind": 171,
+              "pos": 892,
+              "end": 917,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 892,
+                "end": 915,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 892,
+                  "end": 907,
+                  "flags": 0,
+                  "text": "CoreModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 907,
+                  "end": 908,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 908,
+                  "end": 915,
+                  "flags": 0,
+                  "text": "forRoot"
+                }
+              },
+              "arguments": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 923,
+        "end": 951,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 923,
+          "end": 935,
+          "flags": 0,
+          "text": "bootstrap"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 936,
+          "end": 951,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 938,
+              "end": 950,
+              "flags": 0,
+              "text": "AppComponent"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 952,
+        "end": 1018,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 952,
+          "end": 964,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 965,
+          "end": 1018,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 168,
+              "pos": 967,
+              "end": 1013,
+              "flags": 0,
+              "properties": [
+                {
+                  "kind": 248,
+                  "pos": 973,
+                  "end": 996,
+                  "flags": 0,
+                  "name": {
+                    "kind": 69,
+                    "pos": 973,
+                    "end": 981,
+                    "flags": 0,
+                    "text": "provide"
+                  },
+                  "initializer": {
+                    "kind": 69,
+                    "pos": 982,
+                    "end": 996,
+                    "flags": 0,
+                    "text": "APP_BASE_HREF"
+                  }
+                },
+                {
+                  "kind": 248,
+                  "pos": 997,
+                  "end": 1011,
+                  "flags": 0,
+                  "name": {
+                    "kind": 69,
+                    "pos": 997,
+                    "end": 1006,
+                    "flags": 0,
+                    "text": "useValue"
+                  },
+                  "initializer": {
+                    "kind": 9,
+                    "pos": 1007,
+                    "end": 1011,
+                    "flags": 0,
+                    "text": "/"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ChartsRoutingModule",
+    "file": "pages/charts/charts-routing.module.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [
+      {
+        "ns": "RouterModule",
+        "name": "RouterModule.forChild(args)"
+      }
+    ],
+    "exports": [
+      {
+        "name": "RouterModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 602,
+        "end": 645,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 602,
+          "end": 612,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 613,
+          "end": 645,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 171,
+              "pos": 615,
+              "end": 644,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 615,
+                "end": 636,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 615,
+                  "end": 627,
+                  "flags": 0,
+                  "text": "RouterModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 627,
+                  "end": 628,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 628,
+                  "end": 636,
+                  "flags": 0,
+                  "text": "forChild"
+                }
+              },
+              "arguments": [
+                {
+                  "kind": 69,
+                  "pos": 637,
+                  "end": 643,
+                  "flags": 0,
+                  "text": "routes"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 646,
+        "end": 672,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 646,
+          "end": 656,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 657,
+          "end": 672,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 659,
+              "end": 671,
+              "flags": 0,
+              "text": "RouterModule"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ChartsModule",
+    "file": "pages/charts/charts.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "ns": "routedComponents",
+        "name": "routedComponents.routedComponents"
+      },
+      {
+        "ns": "components",
+        "name": "components.components"
+      }
+    ],
+    "imports": [
+      {
+        "name": "ThemeModule"
+      },
+      {
+        "name": "ChartsRoutingModule"
+      },
+      {
+        "name": "NgxEchartsModule"
+      },
+      {
+        "name": "NgxChartsModule"
+      },
+      {
+        "name": "ChartModule"
+      }
+    ],
+    "exports": [
+      {
+        "ns": "components",
+        "name": "components.components"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 2247,
+        "end": 2341,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 2247,
+          "end": 2257,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 2258,
+          "end": 2341,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 2260,
+              "end": 2271,
+              "flags": 0,
+              "text": "ThemeModule"
+            },
+            {
+              "kind": 69,
+              "pos": 2272,
+              "end": 2292,
+              "flags": 0,
+              "text": "ChartsRoutingModule"
+            },
+            {
+              "kind": 69,
+              "pos": 2293,
+              "end": 2310,
+              "flags": 0,
+              "text": "NgxEchartsModule"
+            },
+            {
+              "kind": 69,
+              "pos": 2311,
+              "end": 2327,
+              "flags": 0,
+              "text": "NgxChartsModule"
+            },
+            {
+              "kind": 69,
+              "pos": 2328,
+              "end": 2340,
+              "flags": 0,
+              "text": "ChartModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 2342,
+        "end": 2369,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 2342,
+          "end": 2352,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 2353,
+          "end": 2369,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 2355,
+              "end": 2368,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 2358,
+                "end": 2368,
+                "flags": 0,
+                "text": "components"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 2370,
+        "end": 2423,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 2370,
+          "end": 2385,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 2386,
+          "end": 2423,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 2388,
+              "end": 2407,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 2391,
+                "end": 2407,
+                "flags": 0,
+                "text": "routedComponents"
+              }
+            },
+            {
+              "kind": 188,
+              "pos": 2408,
+              "end": 2422,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 2412,
+                "end": 2422,
+                "flags": 0,
+                "text": "components"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ComponentsRoutingModule",
+    "file": "pages/components/components-routing.module.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [
+      {
+        "ns": "RouterModule",
+        "name": "RouterModule.forChild(args)"
+      }
+    ],
+    "exports": [
+      {
+        "name": "RouterModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 536,
+        "end": 579,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 536,
+          "end": 546,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 547,
+          "end": 579,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 171,
+              "pos": 549,
+              "end": 578,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 549,
+                "end": 570,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 549,
+                  "end": 561,
+                  "flags": 0,
+                  "text": "RouterModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 561,
+                  "end": 562,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 562,
+                  "end": 570,
+                  "flags": 0,
+                  "text": "forChild"
+                }
+              },
+              "arguments": [
+                {
+                  "kind": 69,
+                  "pos": 571,
+                  "end": 577,
+                  "flags": 0,
+                  "text": "routes"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 580,
+        "end": 606,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 580,
+          "end": 590,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 591,
+          "end": 606,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 593,
+              "end": 605,
+              "flags": 0,
+              "text": "RouterModule"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ComponentsModule",
+    "file": "pages/components/components.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "ns": "routedComponents",
+        "name": "routedComponents.routedComponents"
+      }
+    ],
+    "imports": [
+      {
+        "name": "ThemeModule"
+      },
+      {
+        "name": "ComponentsRoutingModule"
+      },
+      {
+        "name": "TreeModule"
+      },
+      {
+        "name": "ToasterModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 291,
+        "end": 389,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 291,
+          "end": 301,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 302,
+          "end": 389,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 304,
+              "end": 320,
+              "flags": 0,
+              "text": "ThemeModule"
+            },
+            {
+              "kind": 69,
+              "pos": 321,
+              "end": 349,
+              "flags": 0,
+              "text": "ComponentsRoutingModule"
+            },
+            {
+              "kind": 69,
+              "pos": 350,
+              "end": 365,
+              "flags": 0,
+              "text": "TreeModule"
+            },
+            {
+              "kind": 69,
+              "pos": 366,
+              "end": 384,
+              "flags": 0,
+              "text": "ToasterModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 390,
+        "end": 437,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 390,
+          "end": 405,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 406,
+          "end": 437,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 408,
+              "end": 432,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 416,
+                "end": 432,
+                "flags": 0,
+                "text": "routedComponents"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "DashboardModule",
+    "file": "pages/dashboard/dashboard.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "ns": "chartComponents",
+        "name": "chartComponents.chartComponents"
+      },
+      {
+        "ns": "editorComponents",
+        "name": "editorComponents.editorComponents"
+      },
+      {
+        "ns": "formsComponents",
+        "name": "formsComponents.formsComponents"
+      },
+      {
+        "ns": "mapComponents",
+        "name": "mapComponents.mapComponents"
+      },
+      {
+        "ns": "uiFeaturesComponents",
+        "name": "uiFeaturesComponents.uiFeaturesComponents"
+      },
+      {
+        "name": "ContactsComponent",
+        "file": "dashboard/contacts/contacts.component.ts",
+        "selector": "ngx-contacts",
+        "providers": [],
+        "templateUrl": [
+          "contacts.component.html"
+        ],
+        "styleUrls": [
+          "contacts.component.scss"
+        ],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 305,
+            "end": 332,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 305,
+              "end": 316,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 317,
+              "end": 332,
+              "flags": 0,
+              "text": "ngx-contacts"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 333,
+            "end": 376,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 333,
+              "end": 345,
+              "flags": 0,
+              "text": "styleUrls"
+            },
+            "initializer": {
+              "kind": 167,
+              "pos": 346,
+              "end": 376,
+              "flags": 0,
+              "elements": [
+                {
+                  "kind": 9,
+                  "pos": 348,
+                  "end": 375,
+                  "flags": 0,
+                  "text": "./contacts.component.scss"
+                }
+              ]
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 377,
+            "end": 420,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 377,
+              "end": 391,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 392,
+              "end": 420,
+              "flags": 0,
+              "text": "./contacts.component.html"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DashboardComponent",
+        "file": "pages/dashboard/dashboard.component.ts",
+        "selector": "ngx-dashboard",
+        "providers": [],
+        "templateUrl": [
+          "dashboard.component.html"
+        ],
+        "styleUrls": [
+          "dashboard.component.scss"
+        ],
+        "__raw": [
+          {
+            "kind": 248,
+            "pos": 56,
+            "end": 84,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 56,
+              "end": 67,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 68,
+              "end": 84,
+              "flags": 0,
+              "text": "ngx-dashboard"
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 85,
+            "end": 129,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 85,
+              "end": 97,
+              "flags": 0,
+              "text": "styleUrls"
+            },
+            "initializer": {
+              "kind": 167,
+              "pos": 98,
+              "end": 129,
+              "flags": 0,
+              "elements": [
+                {
+                  "kind": 9,
+                  "pos": 100,
+                  "end": 128,
+                  "flags": 0,
+                  "text": "./dashboard.component.scss"
+                }
+              ]
+            }
+          },
+          {
+            "kind": 248,
+            "pos": 130,
+            "end": 174,
+            "flags": 0,
+            "name": {
+              "kind": 69,
+              "pos": 130,
+              "end": 144,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "kind": 9,
+              "pos": 145,
+              "end": 174,
+              "flags": 0,
+              "text": "./dashboard.component.html"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ElectricityChartComponent"
+      },
+      {
+        "name": "ElectricityComponent"
+      },
+      {
+        "name": "KittenComponent"
+      },
+      {
+        "name": "NotificationsDashboardComponent"
+      },
+      {
+        "name": "PlayerComponent"
+      },
+      {
+        "name": "RoomsComponent"
+      },
+      {
+        "name": "RoomSelectorComponent"
+      },
+      {
+        "name": "SecurityCamerasComponent"
+      },
+      {
+        "name": "SmartTableDashboardComponent"
+      },
+      {
+        "name": "SolarComponent"
+      },
+      {
+        "name": "StatusCardComponent"
+      },
+      {
+        "name": "TeamComponent"
+      },
+      {
+        "name": "TemperatureComponent"
+      },
+      {
+        "name": "TemperatureDraggerComponent"
+      },
+      {
+        "name": "TrafficChartComponent"
+      },
+      {
+        "name": "TrafficComponent"
+      },
+      {
+        "name": "TreeDashboardComponent"
+      },
+      {
+        "name": "WeatherComponent"
+      }
+    ],
+    "imports": [
+      {
+        "ns": "AgmCoreModule",
+        "name": "AgmCoreModule.forRoot()"
+      },
+      {
+        "name": "ButtonsModule"
+      },
+      {
+        "name": "ChartModule"
+      },
+      {
+        "name": "CKEditorModule"
+      },
+      {
+        "ns": "LeafletModule",
+        "name": "LeafletModule.forRoot()"
+      },
+      {
+        "name": "Ng2SmartTableModule"
+      },
+      {
+        "name": "NgxChartsModule"
+      },
+      {
+        "name": "NgxEchartsModule"
+      },
+      {
+        "name": "ThemeModule"
+      },
+      {
+        "name": "ToasterModule"
+      },
+      {
+        "name": "TreeModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 8191,
+        "end": 8442,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 8191,
+          "end": 8201,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 8202,
+          "end": 8442,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 171,
+              "pos": 8204,
+              "end": 8232,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 8204,
+                "end": 8230,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 8204,
+                  "end": 8222,
+                  "flags": 0,
+                  "text": "AgmCoreModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 8222,
+                  "end": 8223,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 8223,
+                  "end": 8230,
+                  "flags": 0,
+                  "text": "forRoot"
+                }
+              },
+              "arguments": []
+            },
+            {
+              "kind": 69,
+              "pos": 8233,
+              "end": 8251,
+              "flags": 0,
+              "text": "ButtonsModule"
+            },
+            {
+              "kind": 69,
+              "pos": 8252,
+              "end": 8268,
+              "flags": 0,
+              "text": "ChartModule"
+            },
+            {
+              "kind": 69,
+              "pos": 8269,
+              "end": 8288,
+              "flags": 0,
+              "text": "CKEditorModule"
+            },
+            {
+              "kind": 171,
+              "pos": 8289,
+              "end": 8317,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 8289,
+                "end": 8315,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 8289,
+                  "end": 8307,
+                  "flags": 0,
+                  "text": "LeafletModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 8307,
+                  "end": 8308,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 8308,
+                  "end": 8315,
+                  "flags": 0,
+                  "text": "forRoot"
+                }
+              },
+              "arguments": []
+            },
+            {
+              "kind": 69,
+              "pos": 8318,
+              "end": 8342,
+              "flags": 0,
+              "text": "Ng2SmartTableModule"
+            },
+            {
+              "kind": 69,
+              "pos": 8343,
+              "end": 8363,
+              "flags": 0,
+              "text": "NgxChartsModule"
+            },
+            {
+              "kind": 69,
+              "pos": 8364,
+              "end": 8385,
+              "flags": 0,
+              "text": "NgxEchartsModule"
+            },
+            {
+              "kind": 69,
+              "pos": 8386,
+              "end": 8402,
+              "flags": 0,
+              "text": "ThemeModule"
+            },
+            {
+              "kind": 69,
+              "pos": 8403,
+              "end": 8421,
+              "flags": 0,
+              "text": "ToasterModule"
+            },
+            {
+              "kind": 69,
+              "pos": 8422,
+              "end": 8437,
+              "flags": 0,
+              "text": "TreeModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 8443,
+        "end": 9105,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 8443,
+          "end": 8458,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 8459,
+          "end": 9105,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 8461,
+              "end": 8484,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 8469,
+                "end": 8484,
+                "flags": 0,
+                "text": "chartComponents"
+              }
+            },
+            {
+              "kind": 188,
+              "pos": 8485,
+              "end": 8509,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 8493,
+                "end": 8509,
+                "flags": 0,
+                "text": "editorComponents"
+              }
+            },
+            {
+              "kind": 188,
+              "pos": 8510,
+              "end": 8533,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 8518,
+                "end": 8533,
+                "flags": 0,
+                "text": "formsComponents"
+              }
+            },
+            {
+              "kind": 188,
+              "pos": 8534,
+              "end": 8555,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 8542,
+                "end": 8555,
+                "flags": 0,
+                "text": "mapComponents"
+              }
+            },
+            {
+              "kind": 188,
+              "pos": 8556,
+              "end": 8584,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 8564,
+                "end": 8584,
+                "flags": 0,
+                "text": "uiFeaturesComponents"
+              }
+            },
+            {
+              "kind": 69,
+              "pos": 8585,
+              "end": 8607,
+              "flags": 0,
+              "text": "ContactsComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8608,
+              "end": 8631,
+              "flags": 0,
+              "text": "DashboardComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8632,
+              "end": 8662,
+              "flags": 0,
+              "text": "ElectricityChartComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8663,
+              "end": 8688,
+              "flags": 0,
+              "text": "ElectricityComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8689,
+              "end": 8709,
+              "flags": 0,
+              "text": "KittenComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8710,
+              "end": 8746,
+              "flags": 0,
+              "text": "NotificationsDashboardComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8747,
+              "end": 8767,
+              "flags": 0,
+              "text": "PlayerComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8768,
+              "end": 8787,
+              "flags": 0,
+              "text": "RoomsComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8788,
+              "end": 8814,
+              "flags": 0,
+              "text": "RoomSelectorComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8815,
+              "end": 8844,
+              "flags": 0,
+              "text": "SecurityCamerasComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8845,
+              "end": 8878,
+              "flags": 0,
+              "text": "SmartTableDashboardComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8879,
+              "end": 8898,
+              "flags": 0,
+              "text": "SolarComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8899,
+              "end": 8923,
+              "flags": 0,
+              "text": "StatusCardComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8924,
+              "end": 8942,
+              "flags": 0,
+              "text": "TeamComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8943,
+              "end": 8968,
+              "flags": 0,
+              "text": "TemperatureComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 8969,
+              "end": 9001,
+              "flags": 0,
+              "text": "TemperatureDraggerComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 9002,
+              "end": 9028,
+              "flags": 0,
+              "text": "TrafficChartComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 9029,
+              "end": 9050,
+              "flags": 0,
+              "text": "TrafficComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 9051,
+              "end": 9078,
+              "flags": 0,
+              "text": "TreeDashboardComponent"
+            },
+            {
+              "kind": 69,
+              "pos": 9079,
+              "end": 9100,
+              "flags": 0,
+              "text": "WeatherComponent"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 9106,
+        "end": 9160,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 9106,
+          "end": 9124,
+          "flags": 0,
+          "text": "entryComponents"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 9125,
+          "end": 9160,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 9127,
+              "end": 9155,
+              "flags": 0,
+              "text": "ModalDashboardComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ButtonsModule",
+    "file": "ui-features/buttons/buttons.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "ns": "components",
+        "name": "components.components"
+      }
+    ],
+    "imports": [
+      {
+        "name": "ThemeModule"
+      }
+    ],
+    "exports": [
+      {
+        "ns": "components",
+        "name": "components.components"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 1533,
+        "end": 1567,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1533,
+          "end": 1543,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1544,
+          "end": 1567,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 1546,
+              "end": 1562,
+              "flags": 0,
+              "text": "ThemeModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1568,
+        "end": 1604,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1568,
+          "end": 1578,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1579,
+          "end": 1604,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 1581,
+              "end": 1599,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 1589,
+                "end": 1599,
+                "flags": 0,
+                "text": "components"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1605,
+        "end": 1646,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1605,
+          "end": 1620,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1621,
+          "end": 1646,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 1623,
+              "end": 1641,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 1631,
+                "end": 1641,
+                "flags": 0,
+                "text": "components"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1647,
+        "end": 1663,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1647,
+          "end": 1659,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1660,
+          "end": 1663,
+          "flags": 0,
+          "elements": []
+        }
+      }
+    ]
+  },
+  {
+    "name": "EditorsRoutingModule",
+    "file": "pages/editors/editors-routing.module.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [
+      {
+        "ns": "RouterModule",
+        "name": "RouterModule.forChild(args)"
+      }
+    ],
+    "exports": [
+      {
+        "name": "RouterModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 512,
+        "end": 555,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 512,
+          "end": 522,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 523,
+          "end": 555,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 171,
+              "pos": 525,
+              "end": 554,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 525,
+                "end": 546,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 525,
+                  "end": 537,
+                  "flags": 0,
+                  "text": "RouterModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 537,
+                  "end": 538,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 538,
+                  "end": 546,
+                  "flags": 0,
+                  "text": "forChild"
+                }
+              },
+              "arguments": [
+                {
+                  "kind": 69,
+                  "pos": 547,
+                  "end": 553,
+                  "flags": 0,
+                  "text": "routes"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 556,
+        "end": 582,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 556,
+          "end": 566,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 567,
+          "end": 582,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 569,
+              "end": 581,
+              "flags": 0,
+              "text": "RouterModule"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "EditorsModule",
+    "file": "pages/editors/editors.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "ns": "routedComponents",
+        "name": "routedComponents.routedComponents"
+      }
+    ],
+    "imports": [
+      {
+        "name": "ThemeModule"
+      },
+      {
+        "name": "EditorsRoutingModule"
+      },
+      {
+        "name": "CKEditorModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 243,
+        "end": 323,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 243,
+          "end": 253,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 254,
+          "end": 323,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 256,
+              "end": 272,
+              "flags": 0,
+              "text": "ThemeModule"
+            },
+            {
+              "kind": 69,
+              "pos": 273,
+              "end": 298,
+              "flags": 0,
+              "text": "EditorsRoutingModule"
+            },
+            {
+              "kind": 69,
+              "pos": 299,
+              "end": 318,
+              "flags": 0,
+              "text": "CKEditorModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 324,
+        "end": 371,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 324,
+          "end": 339,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 340,
+          "end": 371,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 342,
+              "end": 366,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 350,
+                "end": 366,
+                "flags": 0,
+                "text": "routedComponents"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "FormsRoutingModule",
+    "file": "pages/forms/forms-routing.module.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [
+      {
+        "ns": "RouterModule",
+        "name": "RouterModule.forChild(args)"
+      }
+    ],
+    "exports": [
+      {
+        "name": "RouterModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 530,
+        "end": 582,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 530,
+          "end": 540,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 541,
+          "end": 582,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 171,
+              "pos": 543,
+              "end": 577,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 543,
+                "end": 569,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 543,
+                  "end": 560,
+                  "flags": 0,
+                  "text": "RouterModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 560,
+                  "end": 561,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 561,
+                  "end": 569,
+                  "flags": 0,
+                  "text": "forChild"
+                }
+              },
+              "arguments": [
+                {
+                  "kind": 69,
+                  "pos": 570,
+                  "end": 576,
+                  "flags": 0,
+                  "text": "routes"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 583,
+        "end": 618,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 583,
+          "end": 593,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 594,
+          "end": 618,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 596,
+              "end": 613,
+              "flags": 0,
+              "text": "RouterModule"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "FormsModule",
+    "file": "pages/forms/forms.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "ns": "routedComponents",
+        "name": "routedComponents.routedComponents"
+      }
+    ],
+    "imports": [
+      {
+        "name": "ThemeModule"
+      },
+      {
+        "name": "FormsRoutingModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 191,
+        "end": 249,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 191,
+          "end": 201,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 202,
+          "end": 249,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 204,
+              "end": 220,
+              "flags": 0,
+              "text": "ThemeModule"
+            },
+            {
+              "kind": 69,
+              "pos": 221,
+              "end": 244,
+              "flags": 0,
+              "text": "FormsRoutingModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 250,
+        "end": 297,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 250,
+          "end": 265,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 266,
+          "end": 297,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 268,
+              "end": 292,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 276,
+                "end": 292,
+                "flags": 0,
+                "text": "routedComponents"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "MapsRoutingModule",
+    "file": "pages/maps/maps-routing.module.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [
+      {
+        "ns": "RouterModule",
+        "name": "RouterModule.forChild(args)"
+      }
+    ],
+    "exports": [
+      {
+        "name": "RouterModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 616,
+        "end": 659,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 616,
+          "end": 626,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 627,
+          "end": 659,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 171,
+              "pos": 629,
+              "end": 658,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 629,
+                "end": 650,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 629,
+                  "end": 641,
+                  "flags": 0,
+                  "text": "RouterModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 641,
+                  "end": 642,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 642,
+                  "end": 650,
+                  "flags": 0,
+                  "text": "forChild"
+                }
+              },
+              "arguments": [
+                {
+                  "kind": 69,
+                  "pos": 651,
+                  "end": 657,
+                  "flags": 0,
+                  "text": "routes"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 660,
+        "end": 686,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 660,
+          "end": 670,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 671,
+          "end": 686,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 673,
+              "end": 685,
+              "flags": 0,
+              "text": "RouterModule"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "MapsModule",
+    "file": "pages/maps/maps.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "ns": "routedComponents",
+        "name": "routedComponents.routedComponents"
+      }
+    ],
+    "imports": [
+      {
+        "name": "ThemeModule"
+      },
+      {
+        "ns": "AgmCoreModule",
+        "name": "AgmCoreModule.forRoot()"
+      },
+      {
+        "ns": "LeafletModule",
+        "name": "LeafletModule.forRoot()"
+      },
+      {
+        "name": "MapsRoutingModule"
+      },
+      {
+        "name": "NgxEchartsModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 337,
+        "end": 474,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 337,
+          "end": 347,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 348,
+          "end": 474,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 350,
+              "end": 366,
+              "flags": 0,
+              "text": "ThemeModule"
+            },
+            {
+              "kind": 171,
+              "pos": 367,
+              "end": 395,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 367,
+                "end": 393,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 367,
+                  "end": 385,
+                  "flags": 0,
+                  "text": "AgmCoreModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 385,
+                  "end": 386,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 386,
+                  "end": 393,
+                  "flags": 0,
+                  "text": "forRoot"
+                }
+              },
+              "arguments": []
+            },
+            {
+              "kind": 171,
+              "pos": 396,
+              "end": 424,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 396,
+                "end": 422,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 396,
+                  "end": 414,
+                  "flags": 0,
+                  "text": "LeafletModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 414,
+                  "end": 415,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 415,
+                  "end": 422,
+                  "flags": 0,
+                  "text": "forRoot"
+                }
+              },
+              "arguments": []
+            },
+            {
+              "kind": 69,
+              "pos": 425,
+              "end": 447,
+              "flags": 0,
+              "text": "MapsRoutingModule"
+            },
+            {
+              "kind": 69,
+              "pos": 448,
+              "end": 469,
+              "flags": 0,
+              "text": "NgxEchartsModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 475,
+        "end": 489,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 475,
+          "end": 485,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 486,
+          "end": 489,
+          "flags": 0,
+          "elements": []
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 490,
+        "end": 537,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 490,
+          "end": 505,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 506,
+          "end": 537,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 508,
+              "end": 532,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 516,
+                "end": 532,
+                "flags": 0,
+                "text": "routedComponents"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "PagesRoutingModule",
+    "file": "app/pages/pages-routing.module.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [
+      {
+        "ns": "RouterModule",
+        "name": "RouterModule.forChild(args)"
+      }
+    ],
+    "exports": [
+      {
+        "name": "RouterModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 1072,
+        "end": 1115,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1072,
+          "end": 1082,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1083,
+          "end": 1115,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 171,
+              "pos": 1085,
+              "end": 1114,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 1085,
+                "end": 1106,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 1085,
+                  "end": 1097,
+                  "flags": 0,
+                  "text": "RouterModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 1097,
+                  "end": 1098,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 1098,
+                  "end": 1106,
+                  "flags": 0,
+                  "text": "forChild"
+                }
+              },
+              "arguments": [
+                {
+                  "kind": 69,
+                  "pos": 1107,
+                  "end": 1113,
+                  "flags": 0,
+                  "text": "routes"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1116,
+        "end": 1142,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1116,
+          "end": 1126,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1127,
+          "end": 1142,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 1129,
+              "end": 1141,
+              "flags": 0,
+              "text": "RouterModule"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "PagesModule",
+    "file": "app/pages/pages.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "ns": "PAGES_COMPONENTS",
+        "name": "PAGES_COMPONENTS.PAGES_COMPONENTS"
+      }
+    ],
+    "imports": [
+      {
+        "name": "PagesRoutingModule"
+      },
+      {
+        "name": "ThemeModule"
+      },
+      {
+        "name": "DashboardModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 335,
+        "end": 414,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 335,
+          "end": 345,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 346,
+          "end": 414,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 348,
+              "end": 371,
+              "flags": 0,
+              "text": "PagesRoutingModule"
+            },
+            {
+              "kind": 69,
+              "pos": 372,
+              "end": 388,
+              "flags": 0,
+              "text": "ThemeModule"
+            },
+            {
+              "kind": 69,
+              "pos": 389,
+              "end": 409,
+              "flags": 0,
+              "text": "DashboardModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 415,
+        "end": 462,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 415,
+          "end": 430,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 431,
+          "end": 462,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 433,
+              "end": 457,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 441,
+                "end": 457,
+                "flags": 0,
+                "text": "PAGES_COMPONENTS"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "TablesRoutingModule",
+    "file": "pages/tables/tables-routing.module.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [
+      {
+        "ns": "RouterModule",
+        "name": "RouterModule.forChild(args)"
+      }
+    ],
+    "exports": [
+      {
+        "name": "RouterModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 395,
+        "end": 438,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 395,
+          "end": 405,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 406,
+          "end": 438,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 171,
+              "pos": 408,
+              "end": 437,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 408,
+                "end": 429,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 408,
+                  "end": 420,
+                  "flags": 0,
+                  "text": "RouterModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 420,
+                  "end": 421,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 421,
+                  "end": 429,
+                  "flags": 0,
+                  "text": "forChild"
+                }
+              },
+              "arguments": [
+                {
+                  "kind": 69,
+                  "pos": 430,
+                  "end": 436,
+                  "flags": 0,
+                  "text": "routes"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 439,
+        "end": 465,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 439,
+          "end": 449,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 450,
+          "end": 465,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 452,
+              "end": 464,
+              "flags": 0,
+              "text": "RouterModule"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "TablesModule",
+    "file": "pages/tables/tables.module.ts",
+    "providers": [
+      {
+        "name": "SmartTableService"
+      }
+    ],
+    "declarations": [
+      {
+        "ns": "routedComponents",
+        "name": "routedComponents.routedComponents"
+      }
+    ],
+    "imports": [
+      {
+        "name": "ThemeModule"
+      },
+      {
+        "name": "TablesRoutingModule"
+      },
+      {
+        "name": "Ng2SmartTableModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 322,
+        "end": 406,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 322,
+          "end": 332,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 333,
+          "end": 406,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 335,
+              "end": 351,
+              "flags": 0,
+              "text": "ThemeModule"
+            },
+            {
+              "kind": 69,
+              "pos": 352,
+              "end": 376,
+              "flags": 0,
+              "text": "TablesRoutingModule"
+            },
+            {
+              "kind": 69,
+              "pos": 377,
+              "end": 401,
+              "flags": 0,
+              "text": "Ng2SmartTableModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 407,
+        "end": 454,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 407,
+          "end": 422,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 423,
+          "end": 454,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 425,
+              "end": 449,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 433,
+                "end": 449,
+                "flags": 0,
+                "text": "routedComponents"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 455,
+        "end": 497,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 455,
+          "end": 467,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 468,
+          "end": 497,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 470,
+              "end": 492,
+              "flags": 0,
+              "text": "SmartTableService"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ButtonsModule",
+    "file": "ui-features/buttons/buttons.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "ns": "components",
+        "name": "components.components"
+      }
+    ],
+    "imports": [
+      {
+        "name": "ThemeModule"
+      }
+    ],
+    "exports": [
+      {
+        "ns": "components",
+        "name": "components.components"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 1333,
+        "end": 1367,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1333,
+          "end": 1343,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1344,
+          "end": 1367,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 1346,
+              "end": 1362,
+              "flags": 0,
+              "text": "ThemeModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1368,
+        "end": 1404,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1368,
+          "end": 1378,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1379,
+          "end": 1404,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 1381,
+              "end": 1399,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 1389,
+                "end": 1399,
+                "flags": 0,
+                "text": "components"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1405,
+        "end": 1446,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1405,
+          "end": 1420,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1421,
+          "end": 1446,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 1423,
+              "end": 1441,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 1431,
+                "end": 1441,
+                "flags": 0,
+                "text": "components"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1447,
+        "end": 1463,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1447,
+          "end": 1459,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1460,
+          "end": 1463,
+          "flags": 0,
+          "elements": []
+        }
+      }
+    ]
+  },
+  {
+    "name": "UiFeaturesRoutingModule",
+    "file": "pages/ui-features/ui-features-routing.module.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [
+      {
+        "ns": "RouterModule",
+        "name": "RouterModule.forChild(args)"
+      }
+    ],
+    "exports": [
+      {
+        "name": "RouterModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 1370,
+        "end": 1413,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1370,
+          "end": 1380,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1381,
+          "end": 1413,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 171,
+              "pos": 1383,
+              "end": 1412,
+              "flags": 0,
+              "expression": {
+                "kind": 169,
+                "pos": 1383,
+                "end": 1404,
+                "flags": 0,
+                "expression": {
+                  "kind": 69,
+                  "pos": 1383,
+                  "end": 1395,
+                  "flags": 0,
+                  "text": "RouterModule"
+                },
+                "dotToken": {
+                  "kind": 21,
+                  "pos": 1395,
+                  "end": 1396,
+                  "flags": 0
+                },
+                "name": {
+                  "kind": 69,
+                  "pos": 1396,
+                  "end": 1404,
+                  "flags": 0,
+                  "text": "forChild"
+                }
+              },
+              "arguments": [
+                {
+                  "kind": 69,
+                  "pos": 1405,
+                  "end": 1411,
+                  "flags": 0,
+                  "text": "routes"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1414,
+        "end": 1440,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1414,
+          "end": 1424,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1425,
+          "end": 1440,
+          "flags": 0,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 1427,
+              "end": 1439,
+              "flags": 0,
+              "text": "RouterModule"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "UiFeaturesModule",
+    "file": "pages/ui-features/ui-features.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "ns": "components",
+        "name": "components.components"
+      }
+    ],
+    "imports": [
+      {
+        "name": "ThemeModule"
+      },
+      {
+        "name": "UiFeaturesRoutingModule"
+      },
+      {
+        "name": "ButtonsModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "kind": 248,
+        "pos": 990,
+        "end": 1072,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 990,
+          "end": 1000,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1001,
+          "end": 1072,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 1003,
+              "end": 1019,
+              "flags": 0,
+              "text": "ThemeModule"
+            },
+            {
+              "kind": 69,
+              "pos": 1020,
+              "end": 1048,
+              "flags": 0,
+              "text": "UiFeaturesRoutingModule"
+            },
+            {
+              "kind": 69,
+              "pos": 1049,
+              "end": 1067,
+              "flags": 0,
+              "text": "ButtonsModule"
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1073,
+        "end": 1114,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1073,
+          "end": 1088,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1089,
+          "end": 1114,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 188,
+              "pos": 1091,
+              "end": 1109,
+              "flags": 0,
+              "expression": {
+                "kind": 69,
+                "pos": 1099,
+                "end": 1109,
+                "flags": 0,
+                "text": "components"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "kind": 248,
+        "pos": 1115,
+        "end": 1160,
+        "flags": 0,
+        "name": {
+          "kind": 69,
+          "pos": 1115,
+          "end": 1133,
+          "flags": 0,
+          "text": "entryComponents"
+        },
+        "initializer": {
+          "kind": 167,
+          "pos": 1134,
+          "end": 1160,
+          "flags": 1024,
+          "elements": [
+            {
+              "kind": 69,
+              "pos": 1136,
+              "end": 1155,
+              "flags": 0,
+              "text": "ModalComponent"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
