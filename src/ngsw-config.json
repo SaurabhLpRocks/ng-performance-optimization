@@ -15,7 +15,6 @@
       ],
       "urls": [
         "https://fonts.googleapis.com/**",
-        "http://cdn.ckeditor.com/**",
         "https://maps.googleapis.com/**",
         "http://a.tile.openstreetmap.org/**",
         "http://b.tile.openstreetmap.org/**",

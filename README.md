@@ -1,63 +1,31 @@
-[![Build Status](https://travis-ci.org/akveo/ngx-admin.svg?branch=master)](https://travis-ci.org/akveo/ngx-admin)
-[![Join the chat at https://gitter.im/ng2-admin/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ng2-admin/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Dependency Status](https://david-dm.org/akveo/ngx-admin/status.svg)](https://david-dm.org/akveo/ng2-admin)
-# Admin template based on Angular 4+, Bootstrap 4 and <a href="https://github.com/akveo/nebular">Nebular</a>
-<a target="_blank" rel="noopener" href="http://akveo.com/ngx-admin/"><img src="https://i.imgur.com/XoJtfvK.gif"/></a>
+# AngularSsrDemo
 
-### What's included:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
-- Angular 4+ & Typescript
-- Bootstrap 4+ & SCSS
-- Responsive layout
-- High resolution
-- Flexibly configurable themes with **hot-reload** (2 themes included)
-- Authentication module with multiple providers
-- Lots of awesome features:
-  - Buttons
-  - Modals
-  - Icons
-  - Typography
-  - Animated searches
-  - Forms
-  - Tabs
-  - Notifications
-  - Tables
-  - Maps
-  - Charts
-  - Editors
-  
-And many more!
+## Server side rendering
 
-### Demo
+Run `start:ssr:pwa:prod` for a ssr build. Navigate to `http://localhost:4000` to browse the server side rendered app.
 
-<a target="_blank" rel="noopener" href="http://akveo.com/ngx-admin/">Live Demo</a>
+## Development server
 
-## Documentation
-This template is using [Nebular](https://github.com/akveo/nebular) modules set, [here you can find documentation and other useful articles](https://akveo.github.io/nebular/#/docs/installation/based-on-starter-kit-ngxadmin).
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-### ng2-admin
-We will continue supporting [ng2-admin](https://github.com/akveo/ngx-admin/tree/ng2-admin) version, but if you are starting from scratch we recommend using `ngx-admin`. Unfortunately, there is no way to automatically update from ng2-admin to ngx-admin, but some parts (Nebular components) could be manually included.
+## Code scaffolding
 
-### Empty starter kit
-Don't need all the pages and modules and just looking for an empty starter kit for your next project? Check out our [starter-kit branch](https://github.com/akveo/ngx-admin/tree/starter-kit).
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Angular 1.x version
-Here you can find Angular 1.x based version: [Blur Admin](http://akveo.github.io/blur-admin/)
+## Build
 
-## BrowserStack
-This project runs its tests on multiple desktop and mobile browsers using [BrowserStack](http://www.browserstack.com).
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-<img src="https://cloud.githubusercontent.com/assets/131406/22254249/534d889e-e254-11e6-8427-a759fb23b7bd.png" height="40" />
+## Running unit tests
 
-### How can I support developers?
-- Star our GitHub repo :star:
-- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
-- Follow us on [Twitter](https://twitter.com/akveo_inc) :feet:
-- Like our page on [Facebook](https://www.facebook.com/akveo/) :thumbsup:
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### Looking for engineering services? 
-Visit [our homepage](http://akveo.com/) or simply leave us a message to [contact@akveo.com](mailto:contact@akveo.com). We will be happy to work with you!
+## Running end-to-end tests
 
-### From Akveo
-Made with :heart: by [Akveo team](http://akveo.com/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get the latest news first!
-We're always happy to receive your feedback!
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

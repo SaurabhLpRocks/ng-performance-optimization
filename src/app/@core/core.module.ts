@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { DataModule } from './data/data.module';
 import { RandomService } from './utils/random.service';
 import { throwIfAlreadyLoaded } from './module-import-guard';
+import { BrowserModuleLoaderService } from './utils/browserModuleLoader.service';
 
 const NB_CORE_PROVIDERS = [
   ...DataModule.forRoot().providers,
@@ -24,6 +25,7 @@ const NB_CORE_PROVIDERS = [
   }).providers,
   AnalyticsService,
   RandomService,
+  BrowserModuleLoaderService
 ];
 
 @NgModule({

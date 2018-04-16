@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
-import { MapsComponent } from './maps.component';
+import { BubbleMapComponent } from './bubble/bubble-map.component';
 import { GmapsComponent } from './gmaps/gmaps.component';
 import { LeafletComponent } from './leaflet/leaflet.component';
-import { BubbleMapComponent } from './bubble/bubble-map.component';
+import { MapsComponent } from './maps.component';
+import { NgModule } from '@angular/core';
 
 const routes: Routes = [{
   path: '',
@@ -12,10 +12,12 @@ const routes: Routes = [{
   children: [{
     path: 'gmaps',
     component: GmapsComponent,
-  }, {
+  },
+  {
     path: 'leaflet',
     component: LeafletComponent,
-  }, {
+  }, 
+  {
     path: 'bubble',
     component: BubbleMapComponent,
   }],

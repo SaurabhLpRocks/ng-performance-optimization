@@ -13,8 +13,6 @@ import { BubbleMapDashboardComponent } from './maps/bubble/bubble-map.component'
 import { ButtonGroupsDashboardComponent } from './ui-features/buttons/button-groups/button-groups.component';
 import { ButtonsDashboardComponent } from './ui-features/buttons/buttons.component';
 import { ButtonsModule } from '../ui-features/buttons/buttons.module';
-import { CKEditorDashboardComponent } from './editors/ckeditor/ckeditor.component';
-import { CKEditorModule } from 'ng2-ckeditor/lib/src/ckeditor.module';
 import { ChartModule } from 'angular2-chartjs';
 import { ChartjsBarDashboardComponent } from './chartjs/chartjs-bar.component';
 import { ChartjsBarHorizontalDashboardComponent } from './chartjs/chartjs-bar-horizontal.component';
@@ -115,7 +113,6 @@ const chartComponents = [
 ];
 
 const editorComponents = [
-  CKEditorDashboardComponent,
   TinyMCEDashboardComponent,
 ]
 
@@ -158,7 +155,6 @@ const uiFeaturesComponents = [
     AgmCoreModule.forRoot(),
     ButtonsModule,
     ChartModule,
-    CKEditorModule,
     LeafletModule.forRoot(),
     Ng2SmartTableModule,
     NgxChartsModule,

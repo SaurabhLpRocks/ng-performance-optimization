@@ -1,4 +1,4 @@
-import 'style-loader!angular2-toaster/toaster.css';
+// import 'style-loader!angular2-toaster/toaster.css';
 
 import { BodyOutputType, Toast, ToasterConfig, ToasterService } from 'angular2-toaster';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
